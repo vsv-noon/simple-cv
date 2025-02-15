@@ -1,0 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: grey;
+}
+
+.header {
+  margin: 0 auto;
+  padding: 32px;
+  width: 595px;
+  background-color: #fff;
+}
