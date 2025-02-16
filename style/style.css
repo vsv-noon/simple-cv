@@ -31,13 +31,59 @@ body {
   color: #575E62;
 }
 
+.h3 {
+  font-family: 'Satoshi-Bold';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 160%;
+  text-transform: uppercase;
+  color: #575E62;
+  margin-bottom: 5px;
+}
+
+.h4 {
+  font-family: 'Satoshi-Bold';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 11px;
+  line-height: 150%;
+  color: #575E62;
+}
+
+.h4-occupation {
+  font-family: 'Satoshi-Black';
+  color: #101214;
+}
+
+.h5-company {
+  font-family: 'Satoshi-Bold';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 140%;
+  color: #3A3F45;
+  margin-top: 2px;
+  margin-bottom: 3px;
+}
+
+.h5-date {
+  font-family: 'Satoshi-MediumItalic';
+  font-style: italic;
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 140%;
+  color: #575E62;
+  margin-bottom: 1px;
+}
+
 .text {
   font-family: 'Satoshi-Regular';
-font-style: normal;
-font-weight: 400;
-font-size: 10px;
-line-height: 140%;
-color: #101214;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 140%;
+  color: #101214;
 }
 
 .header {
@@ -74,10 +120,10 @@ color: #101214;
 }
 
 .header ul {
-  list-style: none;  
+  list-style: none;
 }
 
-li {
+.header-contacts li {
   display: flex;
   justify-content: end;
 }
@@ -87,4 +133,51 @@ li {
   width: 595px;
   padding: 0 32px;
   background-color: #fff;
+}
+
+.p-about {
+  margin-bottom: 24px;
+}
+
+.container-description {
+  display: flex;
+  width: 100%;
+  gap: 24px;
+}
+
+.left-column {
+  width: 166px;
+}
+
+.right-column {
+  width: 337px;
+  margin-bottom: 32px;
+}
+
+.skills,
+.education {
+  margin-bottom: 25px;
+}
+
+.ul-skills {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.ul-skills ul {
+  list-style: disc;
+  margin-left: 18px;
+}
+
+.languages ul {
+  margin-left: 18px;
+}
+
+.right-column ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
 }
